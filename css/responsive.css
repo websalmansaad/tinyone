@@ -1,0 +1,243 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* navigation responsive start */
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        border-bottom: 1px solid #333;
+        margin: 0 80px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    /* navigation responsive end */
+    /* hero responsive start */
+    #hero {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero_content h1 {
+        font-size: 27px;
+    }
+
+    .hero_logo ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero_logo ul li {
+        margin: 0 15px;
+    }
+
+    /* hero responsive end */
+    /* features responsive start */
+    .features_card {
+        text-align: center;
+    }
+
+    .fea_card_icon {
+        text-align: center;
+    }
+
+    .fea_card_content {
+        text-align: center;
+    }
+
+    /* features responsive end */
+    /* news responsive start */
+    #news {
+        margin-top: 50px;
+    }
+
+    .news_heading h4 {
+        font-size: 30px;
+    }
+
+    .news_form input {
+        width: 291px;
+    }
+
+    .news_form button {
+        margin-top: 20px;
+    }
+
+    .news_social_icon {
+        margin: 40px 0;
+    }
+
+    /* news responsive end */
+    /* footer responsive start */
+    .footer_info {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    /* footer responsive end */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* navigation responsive start */
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        border-bottom: 1px solid #333;
+        margin: 0 120px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    /* navigation responsive end */
+    /* hero responsive start */
+    #hero {
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero_content h1 {
+        font-size: 27px;
+    }
+
+    .hero_logo ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero_logo ul li {
+        margin: 0 15px;
+    }
+
+    /* hero responsive end */
+    /* features responsive start */
+    .features_card {
+        text-align: center;
+    }
+
+    .fea_card_icon {
+        text-align: center;
+    }
+
+    .fea_card_content {
+        text-align: center;
+    }
+
+    /* features responsive end */
+    /* news responsive start */
+    #news {
+        margin-top: 50px;
+    }
+
+    .news_heading h4 {
+        font-size: 30px;
+    }
+
+    .news_form input {
+        width: 291px;
+    }
+
+    .news_social_icon {
+        margin: 40px 0;
+    }
+
+    /* news responsive end */
+    /* footer responsive start */
+    .footer_info {
+        text-align: center;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_info p {
+        padding: 0 20px;
+    }
+
+    /* footer responsive end */
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* navigation responsive start */
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        border-bottom: 1px solid #333;
+        margin: 0 80px;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    /* navigation responsive end */
+    /* features responsive start */
+    .features_heading p {
+        font-size: 18px;
+    }
+
+    /* features responsive end */
+    /* news responsive start */
+    #news {
+        margin-top: 80px;
+    }
+
+    .news_heading p {
+        font-size: 18px;
+    }
+
+    .news_form input {
+        width: 400px;
+    }
+
+    /* news responsive end */
+    /* footer responsive start */
+    /* footer responsive end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* features responsive start */
+    .fea_card_icon a {
+        margin-left: -5px;
+    }
+
+    /* features responsive end */
+    /* news responsive start */
+    .news_form input {
+        width: 400px;
+    }
+
+    .news_social_icon {
+        margin: 55px 0;
+    }
+
+    /* news responsive end */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* news responsive start */
+    .news_form input {
+        width: 400px;
+        }
+    /* news responsive end */
+}
